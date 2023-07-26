@@ -4,6 +4,8 @@ import joblib
 import base64
  
 loaded_model = joblib.load('random_forest_model.pkl')
+print(loaded_model)
+
 
 # Defining the function which will make the prediction using the data which the user inputs
 def prediction(GENDER, MARITAL_STATUS, LOST_WEIGHT, TWO_WEEK_SAD, TROUBLE_SLEEPING, TAKE_DRUGS, SUICIDE_THOUGHT,
